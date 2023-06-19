@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.headers {
+    display: flex;
+}
+
+.headers  h4, h3 {
+    margin: 10px 10px;
+}
+
+.headers h4 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heading h3 {
+    font-size: 24px;
+    flex: 1;
+}
+
+.cont-and-img {
+    display: flex;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-section h1 {
+    text-align: center;
+}
+
+.images-with-info {
+    display: flex;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+}
